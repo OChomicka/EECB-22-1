@@ -1,10 +1,24 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
-    "auto_track_width": true,
-    "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "active_layer_preset": "",
+    "auto_track_width": false,
+    "hidden_nets": [
+      "/Sensors/Aout",
+      "/Sensors/GND",
+      "/Power supply/5V Output",
+      "/Sensors/VCC",
+      "/Power supply/3.3V Output",
+      "+24V",
+      "/Sensors/Dout",
+      "/Buttons/SW1",
+      "/Buttons/SW2",
+      "/Buttons/SW3",
+      "/Buttons/SW4",
+      "/Buttons/SW5",
+      "/Buttons/SW6"
+    ],
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -36,7 +50,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -62,7 +75,7 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "ffcffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
